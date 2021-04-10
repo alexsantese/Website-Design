@@ -91,6 +91,22 @@ html {
     margin-left: 15px;
 }
 
+.fonts h3 {
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.fonts p {
+    margin-left: 10px;
+}
+
+.fonts div {
+    border: 2px solid #a0a0a0;
+    border-radius: 7px;
+    height: 200px;
+    width: 400px;
+}
+
 .standard {
     font-style: normal;
     font-size: 18px;
@@ -108,12 +124,48 @@ html {
 
 #font1 {
     font-family: 'Roboto';
+    margin: 10px auto;
 }
 
 #font2 {
     font-family: 'Indie Flower';
+    margin: 10px auto;
 }
 
 #font3 {
+    font-family: 'Barlow';
+    margin: 10px auto;
+}
+
+/* Text Styles */
+
+.text {
+    border: 2px solid #a0a0a0;
+    margin: 15px;
+}
+
+.text h2 {
+    margin-left: 15px;
+}
+
+.text li {
+    margin-left: 25px;
+}
+
+#main {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Roboto';
+}
+
+#sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Barlow';
+}
+
+#paragraph {
+    font-weight: 400;
+    font-size: 14px;
     font-family: 'Barlow';
 }
